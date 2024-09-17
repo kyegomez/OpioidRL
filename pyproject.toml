@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "opioidrl"
-version = "0.0.1"
+version = "0.0.2"
 description = "Paper - Pytorch"
 license = "MIT"
 authors = ["Kye Gomez <kye@apac.ai>"]
@@ -23,12 +23,13 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-swarms = "*"
-zetascale = "*"
-
-[tool.poetry.dev-dependencies]
-# Add development dependencies here
-
+torch = "*"
+transformers = "*"
+gymnasium = "*"
+numpy = "*"
+random2 = "*"
+loguru = "*"
+stable-baselines3 = "*"
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.1.6"

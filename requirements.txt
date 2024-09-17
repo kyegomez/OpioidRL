@@ -1,3 +1,7 @@
 torch
-zetascale
-swarms
+transformers
+gymnasium
+numpy
+random2
+loguru
+stable-baselines3

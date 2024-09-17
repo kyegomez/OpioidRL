@@ -1,7 +1,6 @@
 import gymnasium as gym
 import numpy as np
 import random
-import torch
 from transformers import GPT2Tokenizer, GPT2LMHeadModel, pipeline
 from loguru import logger
 from stable_baselines3 import PPO
@@ -12,7 +11,7 @@ from typing import Tuple
 class GPT2TextRewardModel:
     def __init__(self, model_name: str = "gpt2"):
         logger.info(
-            f"Loading GPT-2 model and tokenizer for text reward model..."
+            "Loading GPT-2 model and tokenizer for text reward model..."
         )
         self.tokenizer = GPT2Tokenizer.from_pretrained(model_name)
         self.model = GPT2LMHeadModel.from_pretrained(model_name)
@@ -174,5 +173,5 @@ def main() -> None:
             break
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
