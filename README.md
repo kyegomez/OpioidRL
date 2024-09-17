@@ -114,9 +114,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 OpioidRL is a research tool designed for educational and experimental purposes. The behaviors simulated within this library are based on abstract models of addiction and are not intended to trivialize or promote drug addiction in any form. Addiction is a serious issue, and if you or someone you know is struggling with addiction, please seek professional help.
 
----
-
 Made with ❤️ by the OpioidRL team.
-```
-
-This `README.md` provides a comprehensive overview of **OpioidRL**, including its installation, features, examples of usage, and an important disclaimer. The meth and crack environments emphasize different aspects of addiction within RL simulations, making it clear what each environment simulates.
